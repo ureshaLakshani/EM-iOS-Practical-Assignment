@@ -1,0 +1,66 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - FBSDKCoreKit (6.5.1):
+    - FBSDKCoreKit/Basics (= 6.5.1)
+    - FBSDKCoreKit/Core (= 6.5.1)
+  - FBSDKCoreKit/Basics (6.5.1)
+  - FBSDKCoreKit/Core (6.5.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.5.1):
+    - FBSDKLoginKit/Login (= 6.5.1)
+  - FBSDKLoginKit/Login (6.5.1):
+    - FBSDKCoreKit (~> 6.5.1)
+  - FBSDKShareKit (6.5.1):
+    - FBSDKShareKit/Share (= 6.5.1)
+  - FBSDKShareKit/Share (6.5.1):
+    - FBSDKCoreKit (~> 6.5.1)
+  - Kingfisher (4.10.1)
+  - ObjectMapper (3.5.2)
+  - RappleProgressHUD (2.4.1)
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Kingfisher
+  - ObjectMapper
+  - RappleProgressHUD
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Kingfisher
+    - ObjectMapper
+    - RappleProgressHUD
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  FBSDKCoreKit: 3ecb604427e115bd90ff7fc62ee1e30ebd12285b
+  FBSDKLoginKit: 8b2bc5fa30ea269e9d7208a1165c0a668c0ae826
+  FBSDKShareKit: 9ad7b8d097fc568e911452feb8112ad7f04bb8a2
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  RappleProgressHUD: 1d97178abc04ea9e89e4df74227064ded389ce24
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 273643b9ba6ca40c9ea65253ca4966e0e9c982f3
+
+COCOAPODS: 1.9.1
