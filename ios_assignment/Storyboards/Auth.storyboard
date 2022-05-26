@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qPT-dC-rdN">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="sdy-Th-Ngq">
+            <objects>
+                <viewController storyboardIdentifier="AuthVC" id="qPT-dC-rdN" customClass="LoginVC" customModule="ios_assignment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gle-iO-Wj6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XG5-0v-ZS7" customClass="CustomUIButton" customModule="ios_assignment" customModuleProvider="target">
+                                <rect key="frame" x="107.5" y="507" width="160" height="60"/>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.50980392159999999" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="jrW-9a-PWC"/>
+                                    <constraint firstAttribute="height" constant="60" id="wKo-Yb-DK8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Search Hotels">
+                                    <color key="titleColor" red="0.96468776460000005" green="0.96076315639999998" blue="0.96078556780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="titleShadowColor" red="0.086274509799999996" green="0.50980392159999999" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.086274509799999996" green="0.50980392159999999" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="goToHotelBtn:" destination="qPT-dC-rdN" eventType="touchUpInside" id="8sn-3A-Dfl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Logged in to search hotels!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yzF-ip-bv1">
+                                <rect key="frame" x="64.5" y="449.5" width="246.5" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                                <color key="textColor" red="0.086274509799999996" green="0.50980392159999999" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome To Hotel Booking System" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcC-rd-Ieg">
+                                <rect key="frame" x="51" y="50" width="273" height="22"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TaI-ta-CBJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TaI-ta-CBJ" firstAttribute="bottom" secondItem="XG5-0v-ZS7" secondAttribute="bottom" constant="100" id="45L-1e-vuX"/>
+                            <constraint firstItem="XG5-0v-ZS7" firstAttribute="top" secondItem="yzF-ip-bv1" secondAttribute="bottom" constant="40" id="D1x-U3-SYD"/>
+                            <constraint firstItem="yzF-ip-bv1" firstAttribute="centerX" secondItem="gle-iO-Wj6" secondAttribute="centerX" id="P6A-Ig-s8n"/>
+                            <constraint firstItem="XG5-0v-ZS7" firstAttribute="centerX" secondItem="gle-iO-Wj6" secondAttribute="centerX" id="YV4-vS-2hY"/>
+                            <constraint firstItem="TcC-rd-Ieg" firstAttribute="top" secondItem="TaI-ta-CBJ" secondAttribute="top" constant="50" id="jfQ-ty-Joj"/>
+                            <constraint firstItem="TcC-rd-Ieg" firstAttribute="centerX" secondItem="gle-iO-Wj6" secondAttribute="centerX" id="myJ-GR-3Ck"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginLbl" destination="yzF-ip-bv1" id="k6E-Ck-q8p"/>
+                        <outlet property="searchBtn" destination="XG5-0v-ZS7" id="yAr-pw-6CL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hbN-sh-kYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="157"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="XG5-0v-ZS7">
+            <size key="intrinsicContentSize" width="103" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
